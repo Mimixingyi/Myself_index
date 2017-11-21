@@ -197,7 +197,15 @@ span.glyphicon {
 	border:2px solid darkseagreen;
 	opacity:1;
 }
-
+.wrapper .product_list {
+	width: calc(25% - 20px);
+	float: right;
+	background: lightgoldenrodyellows;
+}
+.product_list img {
+	width: 100%;
+	height: 100%;
+}
 .face p {
   font-size: 3em;
   color: #B4BEB9;

@@ -194,20 +194,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--end-contact-section-->
 		<!--start-map-section-->
 		<div class="google-map">
-			<h3>Show My Project..<span>!</span></h3>
+			
 			<div class="container">
-				
-				<div class="wrapper">
+				<h3>Show My Project..<span>!</span></h3>
+				<div class="wrapper" >
 					<div id="con1_1">
 						<div class="product_list">
-							<a href="#">
-								<img src="images/pic/图片8.png"></a>
+								<img src="images/pic/图片8.png">
 							<p>XY手机助手PC端...</p>
-						</div>
-						<div class="product_list">
-							<a href="#">
-								<img src="images/pic/图片9.png"></a>
-							<p>XY手机助手移动端...</p>
 						</div>
 						<div class="product_list">
 							<a href="#">
@@ -215,34 +209,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<p>七牛云...</p>
 						</div>
 						<div class="product_list">
-							<a href="#">
-								<img src="images/pic/图片6.png"></a>
-							<p>七牛云...</p>
+							<a href="https://github.com/Mimixingyi/employeesSystem.git">
+								<img src="images/pic/图片2.png"></a>
+							<p>OA系统——员工模块...</p>
 						</div>
-						<div class="product_list">
+						<div class="product_list" style="clear: all;">
 							<a href="#">
 								<img src="images/pic/图片7.png"></a>
 							<p>七牛云...</p>
 						</div>
 						<div class="product_list">
-							<a href="#">
+							<a href="https://github.com/Mimixingyi/employeesSystem.git">
 								<img src="images/pic/图片1.png"></a>
 							<p>OA系统——员工模块...</p>
-						</div>
+						</div>						
 						<div class="product_list">
 							<a href="#">
-								<img src="images/pic/图片2.png"></a>
-							<p>OA系统——员工模块...</p>
+								<img src="images/pic/图片9.png"></a>
+							<p>XY手机助手移动端...</p>
 						</div>
 						<div class="product_list">
-							
-								<img src="images/pic/图片3.png">
-							<p>OA系统——员工模块...</p>
-						</div>
-						<div class="product_list">
-							<a href="#">
+							<a href="https://github.com/Mimixingyi/employeesSystem.git">
 								<img src="images/pic/图片4.png"></a>
 							<p>OA系统——员工模块...</p>
+						</div>
+						<div class="product_list">
+							<a href="https://github.com/Mimixingyi/employeesSystem.git">
+								<img src="images/pic/图片3.png">
+							</a>
+							<p>OA系统——员工模块...</p>
+						</div>
+						<div class="product_list">
+							<a href="#">
+								<img src="images/pic/图片6.png"></a>
+							<p>七牛云...</p>
 						</div>
 					</div>
 
@@ -250,23 +250,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				
 			</div>
 		</div>		
-<script type="text/javascript" src="js/jquery.js" ></script>
-<script type="text/javascript" src="js/jquery.masonry.js" ></script>
-				<script type="text/javascript">
-				$(document).ready(function() {
-		
-				    var $container = $('#con1_1'); 
-					//当图片加载完毕，
-				    $container.imagesLoaded(function(){
-				        //生成瀑布流布局
-				        $container.masonry({
-				            itemSelector: '.product_list',
-				            columnWidth: 10 //每两列之间的间隙为5像素
-				        });
-				    });
-				    
-				});
-	</script>
 
 			
 			<!--end-map-section-->
@@ -278,18 +261,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<script type="text/javascript">
 						$(document).ready(function() {
-							/*
+							
 							var defaults = {
 					  			containerID: 'toTop', // fading element id
 								containerHoverID: 'toTopHover', // fading element hover id
 								scrollSpeed: 1200,
 								easingType: 'linear' 
 					 		};
-							*/
-
-							$().UItoTop({
-								easingType: 'easeOutQuart'
-							});
+							
 
 						});
 					</script>
@@ -299,5 +278,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!--end-footer-section-->
 
 	</body>
-
 </html>
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script type="text/javascript" src="js/jquery.masonry.js" ></script>
+				<script type="text/javascript">
+				$(document).ready(function() {
+		
+				    var $container = $('#con1_1'); 
+					//当图片加载完毕，
+				    $container.imagesLoaded(function(){
+				        //生成瀑布流布局
+				        $container.masonry({
+				            itemSelector: '.product_list',
+				            columnWidth: 2 //每两列之间的间隙为5像素
+				        });
+				    });
+				    
+				});
+	</script>
